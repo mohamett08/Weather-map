@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buil-weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="card">
+            <div class="search">
+                <input class="text" id="city" placeholder="Enter your city" spellcheck="false">
+                <button class="search-btn" id="search-btn"><ion-icon name="search-outline"></ion-icon></button>
+            </div>
+            <div class="weather">
+                <img src="images/rain.png" class="weather-icon" alt="">
+                <h1 id="temp">°C</h1>
+                <h3 id="city-name">City-Name</h3>
+                <div class="deatils">
+                    <div class="col">
+                        <img src="images/humidity.png" alt="">
+                        <div>
+                            <p id="humidity">50%</p>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="images/wind.png" alt="">
+                        <div>
+                            <p id="wind">15km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+
+
+    <!-- Qeybta Raadinta Cimilada
+    <div>
+        <input type="text" id="city" placeholder="Geli magaca magaalada">
+        <button id="search-btn">Raadi</button>
+    </div>
+    
+    Qeybta Soo Bandhigida Xogta Cimilada
+    <div>
+        <p id="city-name"></p>   Magaca magaalada
+        <p id="temp"></p>        Heerkulka 
+        <p id="humidity"></p>    Qoyaanka
+        <p id="wind"></p>       Xawaaraha dabaysha 
+        <img id="weather-icon" src="" alt="Weather Icon"> Sawirka cimilada
+    </div> -->
